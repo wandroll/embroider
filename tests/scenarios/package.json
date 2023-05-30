@@ -19,7 +19,7 @@
     "lodash": "^4.17.20",
     "qunit": "^2.16.0",
     "resolve": "^1.20.0",
-    "scenario-tester": "^2.1.2",
+    "scenario-tester": "mansona/scenario-tester#modules-build-dist",
     "semver": "^7.3.8",
     "ts-node": "^10.9.1"
   },
