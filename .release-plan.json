@@ -10,51 +10,25 @@
       "oldVersion": "3.0.0"
     },
     "@embroider/compat": {
-      "impact": "patch",
-      "oldVersion": "3.0.1",
-      "newVersion": "3.0.2",
-      "constraints": [
-        {
-          "impact": "patch",
-          "reason": "Has dependency `workspace:*` on @embroider/macros"
-        },
-        {
-          "impact": "patch",
-          "reason": "Appears in changelog section :bug: Bug Fix"
-        }
-      ],
-      "pkgJSONPath": "/Users/edward/hacking/embroider-main/packages/compat/package.json"
+      "oldVersion": "3.0.2"
     },
     "@embroider/core": {
       "impact": "patch",
-      "oldVersion": "3.0.1",
-      "newVersion": "3.0.2",
+      "oldVersion": "3.0.2",
+      "newVersion": "3.0.3",
       "constraints": [
         {
           "impact": "patch",
           "reason": "Appears in changelog section :bug: Bug Fix"
-        },
-        {
-          "impact": "patch",
-          "reason": "Has dependency `workspace:*` on @embroider/macros"
         }
       ],
-      "pkgJSONPath": "/Users/edward/hacking/embroider-main/packages/core/package.json"
+      "pkgJSONPath": "/home/runner/work/embroider/embroider/packages/core/package.json"
     },
     "@embroider/hbs-loader": {
       "oldVersion": "3.0.0"
     },
     "@embroider/macros": {
-      "impact": "patch",
-      "oldVersion": "1.11.0",
-      "newVersion": "1.11.1",
-      "constraints": [
-        {
-          "impact": "patch",
-          "reason": "Appears in changelog section :bug: Bug Fix"
-        }
-      ],
-      "pkgJSONPath": "/Users/edward/hacking/embroider-main/packages/macros/package.json"
+      "oldVersion": "1.11.1"
     },
     "@embroider/router": {
       "oldVersion": "2.1.1"
@@ -72,5 +46,5 @@
       "oldVersion": "3.0.0"
     }
   },
-  "description": "## Release (2023-06-13)\n\n@embroider/compat 3.0.2 (patch)\n@embroider/core 3.0.2 (patch)\n@embroider/macros 1.11.1 (patch)\n\n#### :bug: Bug Fix\n* `core`\n  * [#1463](https://github.com/embroider-build/embroider/pull/1463) fix resolution of files with .hbs extensions ([@ef4](https://github.com/ef4))\n* `macros`\n  * [#1468](https://github.com/embroider-build/embroider/pull/1468) macroCondition: do branch elimination if no runtime impl. is involved ([@simonihmig](https://github.com/simonihmig))\n* `compat`\n  * [#1412](https://github.com/embroider-build/embroider/pull/1412) WriteV1Config: fix /tests support ([@22a](https://github.com/22a))\n\n#### :house: Internal\n* [#1469](https://github.com/embroider-build/embroider/pull/1469) update deprecated (and removed) blacklist config in test app ([@mansona](https://github.com/mansona))\n\n\n#### Committers: 5\n- Chris Manson ([@mansona](https://github.com/mansona))\n- Edward Faulkner ([@ef4](https://github.com/ef4))\n- Peter Meehan ([@22a](https://github.com/22a))\n- Robert Jackson ([@rwjblue](https://github.com/rwjblue))\n- Simon Ihmig ([@simonihmig](https://github.com/simonihmig))\n"
+  "description": "## Release (2023-06-25)\n\n@embroider/core 3.0.3 (patch)\n\n#### :bug: Bug Fix\n* `core`\n  * [#1365](https://github.com/embroider-build/embroider/pull/1365) Prevent HTML-escaping of module specifiers ([@simonihmig](https://github.com/simonihmig))\n\n#### :house: Internal\n* [#1454](https://github.com/embroider-build/embroider/pull/1454) Refactor scenario helpers to a shared location ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n\n#### Committers: 2\n- Simon Ihmig ([@simonihmig](https://github.com/simonihmig))\n- [@NullVoxPopuli](https://github.com/NullVoxPopuli)\n"
 }

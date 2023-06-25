@@ -1,5 +1,20 @@
 # Embroider Changelog
 
+## Release (2023-06-25)
+
+@embroider/core 3.0.3 (patch)
+
+#### :bug: Bug Fix
+* `core`
+  * [#1365](https://github.com/embroider-build/embroider/pull/1365) Prevent HTML-escaping of module specifiers ([@simonihmig](https://github.com/simonihmig))
+
+#### :house: Internal
+* [#1454](https://github.com/embroider-build/embroider/pull/1454) Refactor scenario helpers to a shared location ([@NullVoxPopuli](https://github.com/NullVoxPopuli))
+
+#### Committers: 2
+- Simon Ihmig ([@simonihmig](https://github.com/simonihmig))
+- [@NullVoxPopuli](https://github.com/NullVoxPopuli)
+
 ## Release (2023-06-13)
 
 @embroider/compat 3.0.2 (patch)
